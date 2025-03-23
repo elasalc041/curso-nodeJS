@@ -18,3 +18,12 @@ const colors = require("colors");
 
 console.log("hola".green);
 
+
+
+
+//variables globales
+console.log(__dirname);
+console.log(__filename);
+
+
+
