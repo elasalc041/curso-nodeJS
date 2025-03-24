@@ -1,0 +1,32 @@
+GET http://localhost:3000/productos
+
+####
+GET http://localhost:3000/productos?id=4852&nombre=cosa
+
+####
+GET http://localhost:3000/productos/nuevo
+
+
+####
+GET http://localhost:3000/productos/4852
+
+####
+POST http://localhost:3000/productos/crear
+Content-Type: application/json
+
+{
+    "nombre": "Producto 1",
+    "precio": 100
+}
+
+
+
+
+####
+GET http://localhost:3000/users
+
+####
+GET http://localhost:3000/users/edit
+
+####
+POST http://localhost:3000/users/update

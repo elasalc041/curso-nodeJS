@@ -1,0 +1,6 @@
+Método: GET, URL: /productos?id=4852&nombre=cosa
+Método: GET, URL: /productos/4852
+Método: GET, URL: /users
+Método: GET, URL: /users/edit
+Método: GET, URL: /users
+Método: GET, URL: /users
